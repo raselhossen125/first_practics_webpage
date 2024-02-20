@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.my-bg-image {
+    background-image: url("../image/homeBackground.png");
+    height: 90vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 140px;
+}
+
+.slider-header-text {
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+
+}
+
+.slider-bottom-text {
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.slider-btn {
+    background-color: white;
+    color: black;
+    width: 248px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.what-tradex {
+    background-color: #F5F5F5;
+    padding: 50px 140px 50px 140px;
+    display: flex;
+    align-self: center;
+}
+
+.what-tradex-lef {
+    justify-content: center;
+    align-items: center;
+}
+
+.what-tradex-header-text {
+    color: #211C6A;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.what-tradex-body-text {
+    color: #16151A;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.what-tradex-fotter-text {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.image-contain {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    padding: 10px;
+}
+
+.service {
+    background-color: #F5F5F5;
+    padding: 50px 140px 50px 140px;
+    text-align: center;
+}
+
+.service-title {
+    color: #0D99FF;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.service-body {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.service-item{
+    background-color: #FFFFFF;
+    height: 300px;
+    width: 300px;
+    border-radius: 16px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.service-item-title{
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 40px;
+}
